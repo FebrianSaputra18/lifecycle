@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../component/ui/Header'
-import Routers from '../route/Routers'
+import Routers from '../app/features/route/Routers'
 
 const Layout = () => {
   return (

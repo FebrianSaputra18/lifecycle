@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -19,8 +18,8 @@ function Header() {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="news">Watch</Nav.Link>
-            <Nav.Link href="#action2">Learn</Nav.Link>
+            <Nav.Link href="news">News Ppper</Nav.Link>
+            <Nav.Link href="redux">Redux</Nav.Link>
             <NavDropdown title="Yang Kalian Cari" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Duniawi</NavDropdown.Item>
               <NavDropdown.Item href="#action4">Akhirat</NavDropdown.Item>
