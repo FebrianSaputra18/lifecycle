@@ -56,16 +56,6 @@ export default class FetchData extends Component {
     })
   }
 
-  //contoh
-
-  // const handleSearch = () => {
-  //   onSearch(value)
-  // }
-
-  // const handleInputChange = (event) => {
-  //   setValue(event.target.value)
-  // }
-
   render() {
     console.log("lanjut render");
 
